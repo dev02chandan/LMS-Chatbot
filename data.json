@@ -1,0 +1,325 @@
+[
+  {
+    "question": "What is ILATE?",
+
+    "answer": "ILATE is a comprehensive Learning Management System offering courses for students from 8th grade onwards, including IBDP, IGCSE, MYP, A Levels, SAT/ACT, and A/ML. [1]"
+  },
+
+  {
+    "question": "How do I sign up for a course?",
+
+    "answer": "You can sign up by clicking on the \"Sign Up\" button on the top right corner of the homepage. Fill in your details and choose your desired course. [1]"
+  },
+
+  {
+    "question": "What courses are offered?",
+
+    "answer": "We offer a variety of courses including IBDP, IGCSE, MYP, A Levels, SAT/ACT, and A/ML. Each course has several subjects to choose from. [1]"
+  },
+
+  {
+    "question": "How do I access demo sessions?",
+
+    "answer": "Once logged in, you can access demo sessions from the student portal. Select the course or subject you are interested in and choose \"Demo Sessions.\" [2]"
+  },
+
+  {
+    "question": "How can I inquire about admissions?",
+
+    "answer": "You can inquire about admissions using the \"Admission Enquiry\" section at the bottom right of the homepage or visit the \"Contact Us\" page for more options. [2]"
+  },
+
+  {
+    "question": "What information is required for the admission form?",
+
+    "answer": "The admission form requires information about the student, the course of interest, previous education, contact information, and parent details. [2]"
+  },
+
+  {
+    "question": "What can teachers do on the platform?",
+
+    "answer": "Teachers can take attendance, upload lecture notes, handwritten notes, extensive worksheets, question banks, and test series. They can also make announcements. [3]"
+  },
+
+  {
+    "question": "How can admins manage the platform?",
+
+    "answer": "Admins can view registered students, their details, admission status, course enrollments, and teacher assignments. They can also manage announcements. [4]"
+  },
+
+  {
+    "question": "How do I reset my password?",
+
+    "answer": "To reset your password, click on \"Forgot Password\" on the login page and follow the instructions. [5]"
+  },
+
+  {
+    "question": "What should I do if I encounter a technical issue?",
+
+    "answer": "For technical support, please contact us via the \"Contact Us\" page or use the support chat feature. [6]"
+  },
+
+  {
+    "question": "How can I watch a long demo session?",
+
+    "answer": "To watch a long demo session, go to the student portal and select the desired course or subject. You’ll find options for both online and offline long demo sessions. [7]"
+  },
+
+  {
+    "question": "Where can I find lecture notes and study materials?",
+
+    "answer": "Lecture notes and study materials are available in the student portal under the specific course or subject you're enrolled in. [7]"
+  },
+
+  {
+    "question": "How do I track my progress in a course?",
+
+    "answer": "You can track your progress in the student portal where you'll find updates on your course completion, grades, and attendance. [7]"
+  },
+
+  {
+    "question": "How do I upload notes and worksheets?",
+
+    "answer": "To upload notes and worksheets, log in to the teacher portal, select the course and subject, and use the upload feature to add your materials. [4]"
+  },
+
+  {
+    "question": "Can I make announcements for my class?",
+
+    "answer": "Yes, you can make announcements through the announcements section in the teacher portal. [4]"
+  },
+
+  {
+    "question": "How do I view detailed student statistics?",
+
+    "answer": "Detailed student statistics can be accessed through the admin dashboard where you can view enrollment numbers, course details, and student progress. [6]"
+  },
+
+  {
+    "question": "How can I manage teacher assignments?",
+
+    "answer": "Admins can manage teacher assignments in the admin dashboard by assigning or reassigning teachers to specific courses. [8]"
+  },
+
+  {
+    "question": "How do I update my profile information?",
+
+    "answer": "To update your profile information, go to the profile settings in your portal and make the necessary changes. [9]"
+  },
+
+  {
+    "question": "What should I do if I have a question that the chatbot cannot answer?",
+
+    "answer": "If the chatbot cannot answer your question, please use the \"Contact Us\" page for further assistance. [9]"
+  },
+
+  {
+    "question": "Is there a mobile app available for the LMS?",
+
+    "answer": "Currently, the LMS is accessible via web browsers. Please check with us for any upcoming mobile app releases. [10]"
+  },
+
+  {
+    "question": "How can I request a refund for a course?",
+
+    "answer": "To request a refund, please contact us through the \"Contact Us\" page or email our support team with your request and course details. [11]"
+  },
+
+  {
+    "question": "How do I change my course or subject after enrolling?",
+
+    "answer": "You can request a course or subject change by contacting support through the \"Contact Us\" page. [11]"
+  },
+
+  {
+    "question": "Are there any prerequisites for the courses offered?",
+
+    "answer": "Prerequisites vary by course. Check the course details on the student portal or contact support for specific information. [11]"
+  },
+
+  {
+    "question": "How do I access previous class recordings?",
+
+    "answer": "Previous class recordings can be found in the student portal under the respective course or subject section. [12]"
+  },
+
+  {
+    "question": "How do I track student attendance?",
+
+    "answer": "To track student attendance, log in to the teacher portal and go to the attendance section for your classes. [4]"
+  },
+
+  {
+    "question": "Can I communicate with students through the platform?",
+
+    "answer": "Yes, you can communicate with students via the messaging feature available in the teacher portal. [5]"
+  },
+
+  {
+    "question": "How do I generate reports for student performance?",
+
+    "answer": "Generate reports by accessing the reporting tools in the admin dashboard, where you can customize and download performance reports. [8]"
+  },
+
+  {
+    "question": "Can I set up automated notifications for students and teachers?",
+
+    "answer": "Yes, you can set up automated notifications through the admin dashboard’s notification settings. [8]"
+  },
+
+  {
+    "question": "How do I provide feedback about the platform?",
+
+    "answer": "To provide feedback, use the \"Feedback\" option in the footer of the website or contact us directly through the \"Contact Us\" page. [10]"
+  },
+
+  {
+    "question": "What are the system requirements for using the LMS?",
+
+    "answer": "The LMS is compatible with most modern web browsers. Ensure you have the latest version of your browser for the best experience. [10]"
+  },
+
+  {
+    "question": "How can I view my course schedule?",
+
+    "answer": "Your course schedule is available in the student portal under the “Schedule” section. [12]"
+  },
+
+  {
+    "question": "How do I submit assignments or projects?",
+
+    "answer": "To submit assignments or projects, go to the specific course page in the student portal and use the submission feature provided. [12]"
+  },
+
+  {
+    "question": "What should I do if I can't access a course or content?",
+
+    "answer": "If you can’t access a course or content, check your enrollment status and contact support if the issue persists. [13]"
+  },
+
+  {
+    "question": "How do I update my payment information?",
+
+    "answer": "Update your payment information in the “Account Settings” section of the student portal. [13]"
+  },
+
+  {
+    "question": "How do I view and manage student grades?",
+
+    "answer": "Grades can be viewed and managed in the teacher portal under the “Grades” section. [5]"
+  },
+
+  {
+    "question": "Can I schedule office hours or extra help sessions?",
+
+    "answer": "Yes, you can schedule office hours or extra help sessions through the teacher portal’s scheduling tool. [5]"
+  },
+
+  {
+    "question": "How do I integrate additional resources into my course?",
+
+    "answer": "Additional resources can be integrated by uploading them through the course management section of the teacher portal. [5]"
+  },
+
+  {
+    "question": "How can I check for updates or new features?",
+
+    "answer": "Updates and new features are announced on the homepage and through notifications in your portal. Check regularly for the latest information. [14]"
+  },
+
+  {
+    "question": "How do I create or manage user roles and permissions?",
+
+    "answer": "Manage user roles and permissions through the “User Management” section in the admin dashboard. [14]"
+  },
+
+  {
+    "question": "How can I customize the appearance of the website?",
+
+    "answer": "Customization options are available under the “Site Settings” in the admin dashboard, where you can adjust themes and layouts. [14]"
+  },
+
+  {
+    "question": "How do I access help or support documentation?",
+
+    "answer": "Help and support documentation can be accessed through the “Help” section on the website, which provides guides and FAQs. [15]"
+  },
+
+  {
+    "question": "Is there a way to test new features before they go live?",
+
+    "answer": "New features may be available in a beta version. Check the announcements section for any testing opportunities. [15]"
+  },
+
+  {
+    "question": "How do I report a bug or issue with the website?",
+
+    "answer": "Report bugs or issues using the “Report a Problem” feature found in the footer or contact support directly. [15]"
+  },
+
+  {
+    "question": "How do I stay updated with maintenance schedules or outages?",
+
+    "answer": "Maintenance schedules and outage notifications are posted on the homepage or sent via email. [16]"
+  },
+
+  {
+    "question": "How do I check if my admission application has been processed?",
+
+    "answer": "Check the status of your admission application in the student portal under the \"Admissions\" section. [13]"
+  },
+
+  {
+    "question": "How can I contact my course instructor?",
+
+    "answer": "Contact your course instructor through the messaging feature in the student portal or refer to the contact information provided on the course page. [13]"
+  },
+
+  {
+    "question": "Can I access course materials offline?",
+
+    "answer": "Some course materials may be available for download. Check the course page in the student portal for offline access options. [3]"
+  },
+
+  {
+    "question": "How can I update or revise uploaded materials?",
+
+    "answer": "To update or revise materials, log in to the teacher portal, navigate to the relevant course, and use the edit feature for the uploaded files. [6]"
+  },
+
+  {
+    "question": "How do I manage course enrollments and withdrawals?",
+
+    "answer": "Manage course enrollments and withdrawals through the “Course Management” section in the admin dashboard. [17]"
+  },
+
+  {
+    "question": "How can I track my assignment deadlines?",
+
+    "answer": "Track your assignment deadlines in the student portal under the “Assignments” section or calendar view. [3]"
+  },
+
+  {
+    "question": "How often is the website updated with new features or improvements?",
+
+    "answer": "Website updates and improvements are typically announced through the homepage and notifications in your portal. [16]"
+  },
+
+  {
+    "question": "How can I suggest a new feature or improvement for the LMS?",
+
+    "answer": "Submit suggestions for new features or improvements through the \"Feedback\" option available on the website or contact support. [16]"
+  },
+
+  {
+    "question": "What are the steps to ensure my data is secure on the LMS?",
+
+    "answer": "The LMS follows industry-standard security protocols. For specific details on data security, refer to the privacy policy or contact support. [18]"
+  },
+
+  {
+    "question": "What should I do if I need help with a specific feature of the LMS?",
+
+    "answer": "For help with specific features, consult the “Help” section or contact support through the “Contact Us” page. [18]"
+  }
+]
