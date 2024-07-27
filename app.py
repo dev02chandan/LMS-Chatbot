@@ -62,7 +62,7 @@ def make_prompt(query, relevant_passages):
     joined_passages = "\n\n".join(f"PASSAGE {i+1}: {passage}" for i, passage in enumerate(escaped_passages))
     # print(joined_passages) #  
     prompt = textwrap.dedent(f"""
-    Persona: You are an LMS Chatbot, knowledgeable and helpful in providing information about the ILATE Learning Management System. You assist both students and teachers by answering questions about the platform's features, courses, and functionalities.
+    Persona: You are an ILATE AI Chatbot, knowledgeable and helpful in providing information about the ILATE Learning Institute. You assist both students and teachers by answering questions about the platform's features, courses, and functionalities.
 
     Task: Answer questions about the ILATE LMS, its courses, and related information. Provide detailed and helpful responses in a conversational manner. If the context is relevant to the query, use it to give a comprehensive answer. If the context is not relevant, acknowledge that you do not know the answer. Direct users to the appropriate sections of the LMS or to contact support for further assistance if needed.
 
