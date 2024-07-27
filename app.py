@@ -60,7 +60,7 @@ def find_best_passages(query, dataframe, top_n=top_n):
 def make_prompt(query, relevant_passages):
     escaped_passages = [passage.replace("'", "").replace('"', "").replace("\n", " ") for passage in relevant_passages]
     joined_passages = "\n\n".join(f"PASSAGE {i+1}: {passage}" for i, passage in enumerate(escaped_passages))
-    print(joined_passages)
+    # print(joined_passages) #  
     prompt = textwrap.dedent(f"""
     Persona: You are an LMS Chatbot, knowledgeable and helpful in providing information about the ILATE Learning Management System. You assist both students and teachers by answering questions about the platform's features, courses, and functionalities.
 
@@ -74,11 +74,12 @@ def make_prompt(query, relevant_passages):
 
     ANSWER:
     """)
+    print(prompt)
     return prompt
 
 # Store LLM generated responses
 if "messages" not in st.session_state:
-    st.session_state.messages = [{"role": "assistant", "content": "Welcome to the ILATE LMS Chatbot! How can I assist you today?"}]
+    st.session_state.messages = [{"role": "assistant", "content": "Welcome to the ILATE AI Chatbot! How can I assist you today?"}]
 
 # Display or clear chat messages
 for message in st.session_state.messages:
@@ -86,7 +87,7 @@ for message in st.session_state.messages:
         st.write(message["content"])
 
 def clear_chat_history():
-    st.session_state.messages = [{"role": "assistant", "content": "Welcome to the ILATE LMS Chatbot! How can I assist you today?"}]
+    st.session_state.messages = [{"role": "assistant", "content": "Welcome to the ILATE AI Chatbot! How can I assist you today?"}]
 st.sidebar.button('Clear Chat History', on_click=clear_chat_history)
 
 # Function for generating Gemini response
