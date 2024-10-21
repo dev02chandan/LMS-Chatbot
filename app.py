@@ -41,7 +41,7 @@ if hide_sidebar:
     )
 
 # Add logo
-logo_path = "logo.png"
+logo_path = "logo.jpg"
 if os.path.exists(logo_path):
     st.image(logo_path, width=200)
 
