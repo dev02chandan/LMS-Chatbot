@@ -9,36 +9,8 @@ import textwrap
 # App title and configuration
 st.set_page_config(page_title="LMS Chatbot")
 
-# Configure Gemini API
-if "GEMINI_API_KEY" in st.secrets:
-    gemini_api = st.secrets["GEMINI_API_KEY"]
-else:
-    gemini_api = st.text_input(
-        "Enter Gemini API token:", type="password", key="api_input"
-    )
-    if gemini_api and gemini_api.startswith("r8_") and len(gemini_api) == 40:
-        st.secrets["GEMINI_API_KEY"] = gemini_api
-        st.experimental_rerun()
-
 if "GEMINI_API_KEY" in st.secrets:
     genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
-    hide_sidebar = True
-else:
-    st.sidebar.write("Please enter your API key")
-    hide_sidebar = False
-
-# Hide sidebar if API key is set
-if hide_sidebar:
-    st.markdown(
-        """
-        <style>
-        [data-testid="stSidebar"] {
-            display: none;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
 
 # Add logo
 logo_path = "logo.jpg"
