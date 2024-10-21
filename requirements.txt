@@ -1,3 +1,10 @@
 streamlit
 google-generativeai
 faiss-cpu
+
+# setup
+pandas
+
+# for apis
+uvicorn
+fastapi
