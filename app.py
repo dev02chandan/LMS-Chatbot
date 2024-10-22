@@ -10,7 +10,8 @@ import textwrap
 st.set_page_config(page_title="LMS Chatbot")
 
 if "GEMINI_API_KEY" in st.secrets:
-    genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+    gemini_api = st.secrets["GEMINI_API_KEY"]
+    genai.configure(api_key=gemini_api)
 
 # Add logo
 logo_path = "logo.jpg"
